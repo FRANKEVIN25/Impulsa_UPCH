@@ -1,0 +1,180 @@
+export const initialProfile = {
+  name: "Ángel Deker",
+  email: "angel.deker@upch.pe",
+  career: "Ingeniería Informática",
+  cycle: "8.° ciclo",
+  phone: "+51 963 852 741",
+  location: "Lima, Perú",
+  about:
+    "Estudiante de Ingeniería Informática con interés en desarrollo de software y análisis de datos. Me motiva aprender, colaborar y transformar ideas en soluciones útiles.",
+  skills: ["Python", "SQL", "Trabajo en equipo", "Comunicación"],
+  availability: "Medio tiempo",
+  modality: "Híbrido",
+};
+export const jobs = [
+  {
+    id: 1,
+    title: "Practicante de desarrollo de software",
+    company: "Alicorp",
+    logo: "4fd6d.png",
+    mode: "Híbrido",
+    location: "Lima",
+    age: "Hace 2 días",
+    cycle: 6,
+    skills: ["Python", "SQL", "Git"],
+    description:
+      "Participa en el desarrollo y mantenimiento de aplicaciones internas. Colabora con un equipo ágil y convierte necesidades de negocio en soluciones digitales.",
+  },
+  {
+    id: 2,
+    title: "Practicante de Ciberseguridad",
+    company: "NTT DATA Perú",
+    logo: "a5e7c.png",
+    mode: "Remoto",
+    location: "Lima",
+    age: "Hace 3 días",
+    cycle: 7,
+    skills: ["Redes", "Linux", "Comunicación"],
+    description:
+      "Apoya en el monitoreo de alertas, documentación de incidentes y revisión de buenas prácticas de seguridad.",
+  },
+  {
+    id: 3,
+    title: "Practicante de Analítica de Datos",
+    company: "Entel Perú",
+    logo: "bac51.png",
+    mode: "Híbrido",
+    location: "Lima",
+    age: "Hace un día",
+    cycle: 8,
+    skills: ["SQL", "Python", "Power BI"],
+    description:
+      "Transforma datos en información útil. Apoya en la creación de reportes, limpieza de datos y seguimiento de indicadores.",
+  },
+  {
+    id: 4,
+    title: "Practicante de innovación digital",
+    company: "Alicorp",
+    logo: "4fd6d.png",
+    mode: "Presencial",
+    location: "Callao",
+    age: "Hoy",
+    cycle: 6,
+    skills: ["Comunicación", "Design Thinking", "Excel"],
+    description:
+      "Colabora en la investigación y validación de propuestas de innovación junto a un equipo multidisciplinario.",
+  },
+];
+export const initialPosts = [
+  {
+    id: "p1",
+    author: "Pedro de la Cruz",
+    initials: "PC",
+    category: "Herramientas",
+    time: "Hace 2 h",
+    title: "Una herramienta para practicar antes de postular",
+    body: "¡Hola, chicos! Les comparto HackerRank, una plataforma donde pueden practicar y mejorar habilidades técnicas como Python, Java y SQL. Además, pueden poner a prueba sus conocimientos y obtener certificaciones para agregar a su CV o LinkedIn.",
+    image: "b0bcd.png",
+    likes: 24,
+    liked: false,
+    comments: [
+      {
+        author: "María Fernández",
+        body: "¡Gracias! Voy a practicar SQL esta semana.",
+      },
+    ],
+  },
+  {
+    id: "p2",
+    author: "María Fernández",
+    initials: "MF",
+    category: "CV",
+    time: "Hace 5 h",
+    title: "¿Cómo destacar mis proyectos?",
+    body: "Estoy buscando mis primeras prácticas. ¿Cómo puedo destacar mis proyectos?",
+    image: "",
+    likes: 18,
+    liked: false,
+    comments: [
+      {
+        author: "Pedro de la Cruz",
+        body: "Cuenta qué problema resolviste, cómo lo hiciste y qué resultado obtuviste.",
+      },
+    ],
+  },
+  {
+    id: "p3",
+    author: "Lucía Torres",
+    initials: "LT",
+    category: "Entrevistas",
+    time: "Ayer",
+    title: "Mi primera entrevista de prácticas",
+    body: "Preparar ejemplos con la estructura situación, tarea, acción y resultado me ayudó a responder con más claridad. ¿Qué consejo les funcionó a ustedes?",
+    image: "",
+    likes: 12,
+    liked: false,
+    comments: [],
+  },
+];
+export const initialEvents = [
+  {
+    id: "e1",
+    title: "Entrevista de prácticas",
+    date: "2026-11-06",
+    time: "10:00",
+    end: "10:30",
+    type: "Entrevista",
+    location: "Virtual",
+    notes:
+      "Repasar el perfil del puesto y preparar dos preguntas para el equipo.",
+  },
+  {
+    id: "e2",
+    title: "Taller de CV profesional",
+    date: "2026-11-10",
+    time: "16:00",
+    end: "17:30",
+    type: "Taller",
+    location: "Virtual",
+    notes: "Llevar una primera versión de tu CV.",
+  },
+  {
+    id: "e3",
+    title: "Feria Talento Joven",
+    date: "2026-11-18",
+    time: "09:00",
+    end: "13:00",
+    type: "Feria laboral",
+    location: "Presencial",
+    notes: "Preparar una presentación personal breve.",
+  },
+  {
+    id: "e4",
+    title: "Cierre de postulación Nova",
+    date: "2026-11-25",
+    time: "23:59",
+    end: "23:59",
+    type: "Vencimiento",
+    location: "En línea",
+    notes: "Revisar los documentos antes de enviar.",
+  },
+];
+export const initialExperiences = [
+  {
+    id: "x1",
+    title: "Proyecto de aplicación universitaria",
+    organization: "Universidad Peruana Cayetano Heredia",
+    type: "Proyecto académico",
+    start: "2026-03",
+    end: "2026-07",
+    description:
+      "Desarrollo de una aplicación web en equipo. Diseñé interfaces y participé en la implementación de funcionalidades y pruebas.",
+  },
+];
+export const questions = [
+  "Cuéntame sobre ti y por qué te interesa esta práctica.",
+  "Describe un proyecto en el que resolviste un problema. ¿Cuál fue tu aporte?",
+  "¿Cómo organizas tus tareas cuando tienes varias fechas de entrega?",
+  "Cuéntame una situación en la que trabajaste en equipo.",
+  "¿Qué te gustaría aprender durante tus prácticas?",
+];
